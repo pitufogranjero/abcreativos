@@ -11,7 +11,7 @@ import { ProductoDescripcion } from '../../interfaces/producto-descripcion.inter
 export class ItemComponent implements OnInit {
 
   producto:ProductoDescripcion;
-  ID: string;
+  id: string;
 
   constructor(private route: ActivatedRoute,
               public productoService: ProductosService) { }
